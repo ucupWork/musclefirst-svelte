@@ -41,9 +41,6 @@
                                 {@html list.txtDesc}
                             </h2>
                         </div>
-                        <span class="absolute right-0 top-0 w-auto h-auto rounded-xl md:rounded-full p-4 bg-white border border-amber-500 shadow">
-                            <div class="i-ph:check-circle text-emerald-500 w-8 h-8" />
-                        </span>
                     </div>
                 {/each}
             </div>
