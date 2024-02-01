@@ -67,6 +67,9 @@ const config = {
     ssr: {
         noExternal: Object.keys(pkg.dependencies || {})
     },
+    rollupOptions: {
+        external: ['uuid'],
+      },
     plugins: [
         sveltekit(),
         partytownVite({

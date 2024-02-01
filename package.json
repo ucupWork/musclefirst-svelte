@@ -131,6 +131,7 @@
         "svelte-tippy": "^1.3.2",
         "swiper": "8.4",
         "tippy.js": "^6.3.7",
+        "uuid": "^9.0.1",
         "vite-plugin-svelte-svg": "^2.0.2"
     },
     "url": "https://musclefirst.co.id/"
