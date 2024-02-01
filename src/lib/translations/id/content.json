@@ -1,0 +1,97 @@
+{
+    "nav-header": {
+        "home": "Beranda",
+        "product": "Produk",
+        "recipes": "Resep",
+        "testimonial": "Testimonial",
+        "challenge": "Tantangan",
+        "article": "Artikel",
+        "community": "Komunitas",
+        "contact": "Kontak",
+        "search": "Ketik Produk Disini",
+        "searchAgent": "Cari Agen Favorit",
+        "list-agent": "Daftar Agen"
+    },
+    "destination": {
+        "all": "Semua Wilayah",
+        "agent": "Pilih Wilayah"
+    },
+    "jumbotron": {
+        "back": "Kembali",
+        "forward": "Selanjutnya",
+        "page": "Halaman"
+    },
+    "choose-goals": {
+        "gain-muscle": "Bentuk Masa Otot",
+        "weight-loss": "Turunkan Berat Badan",
+        "strength-endurance": "Tingkatkan Stamina",
+        "selected-product": {
+            "text-head": "Pilihan",
+            "text-headsub": "Produk",
+            "text-description": "Dapatkan body goals impianmu dengan order produk Muscle First, sekarang! "
+        }
+    },
+    "protein-future": {
+        "text-main": "Cintai kesehatanmu",
+        "text-head": "di masa depan melalui konsultasi bersama kami",
+        "text-button": "Konsultasi"
+    },
+    "our-products": {
+        "text-head": "Produk Kami",
+        "text-description": "Kami memilih dari beberapa produk unggulan yang ada, nikmati rasa yang berbeda dengan begitu banyak manfaat"
+    },
+    "our-articles": {
+        "text-head": "Artikel",
+        "text-description": "Seputar informasi dan tips untuk tambah pengetahuan kamu tentang Muscle First dan dunia work out"
+    },
+    "our-discount": {
+        "text-head": "Diskon Product",
+        "text-description": "Cek semua platform Muscle First untuk dapatkan diskon produk setiap waktunya!"
+    },
+    "all-products": {
+        "text-head": "Semua Produk",
+        "text-description": "Suplemen Muscle First dengan varian rasa anti boring."
+    },
+    "testimonials": {
+        "text-head": "Testimoni",
+        "text-description": "Mereka yang telah menjaga kesehatan bersama Muscle First, siapa berikutnya?"
+    },
+    "challenges": {
+        "text-head": "Tantangan Pilihan",
+        "text-description": "Kami tantang sobat Muscle untuk takhlukan tantangan dan menangkan hadiah menarik!"
+    },
+    "community": {
+        "text-head": "Dicintai Oleh Komunitas Kami",
+        "text-description": "Ikuti official @musclefirstofficial untuk dapatkan informasi lainnya dan tag kami",
+        "text-button": "Gabung Komunitas"
+    },
+    "contact-us": {
+        "text-head": "Hubungi Kami",
+        "text-description": "Muscle First ingin mendengar pendapat sobat Muscle nih, baik hal baik, ide maupun kritik yang membangun untuk perbaikan kami. Jangan ragu untuk mengirim email kepada kami atau mengisi formulir di bawah ini.",
+        "text-list-one": "Email yang dikirim di luar jam kerja akan dibalas pada jam kerja hari selanjutnya.",
+        "text-list-two": "Karena banyaknya pesan yang Muscle First terima, maka kami perlu beberapa waktu untuk melakukan timbal balik, sehingga kesabaranmu, kami hargai."
+    },
+    "nav-footer": {
+        "company": {
+            "title": "Perusahaan",
+            "article": "Artikel",
+            "about": "Tentang Kami",
+            "career": "Karir",
+            "brand": "Pusat Brand"
+        },
+        "sosial-center": {
+            "title": "Pusat Sosial",
+            "shopee": "Shopee",
+            "tiktok": "Tiktok",
+            "facebook": "Facebook",
+            "instagram": "Instagram",
+            "contact": "Kontak Kami"
+        },
+        "legal": {
+            "title": "Hukum",
+            "licensing": "Lisensi",
+            "privacy": "Kebijakan",
+            "terms": "Ketentuan & Kondisi"
+        }
+    }
+}

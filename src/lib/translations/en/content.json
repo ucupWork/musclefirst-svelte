@@ -1,0 +1,97 @@
+{
+    "nav-header": {
+        "home": "Home",
+        "product": "Product",
+        "recipes": "Recipes",
+        "testimonial": "Testimonial",
+        "challenge": "Challenge",
+        "article": "Article",
+        "community": "Community",
+        "contact": "Contact",
+        "search": "Type Products Here",
+        "searchAgent": "Find Favorite Agent",
+        "list-agent": "List Agent"
+    },
+    "destination": {
+        "all": "All Region",
+        "agent": "Selected Region"
+    },
+    "jumbotron": {
+        "back": "Back",
+        "forward": "Forward",
+        "page": "Page"
+    },
+    "choose-goals": {
+        "gain-muscle": "Gain Muscle",
+        "weight-loss": "Weight Loss",
+        "strength-endurance": "Strength Endurance",
+        "selected-product": {
+            "text-head": "Featured",
+            "text-headsub": "Products",
+            "text-description": "Get your dream body goals by ordering Musclefirst products, now!"
+        }
+    },
+    "protein-future": {
+        "text-main": "Love your health",
+        "text-head": "in the future by consulting with us.",
+        "text-button": "Consultation"
+    },
+    "our-products": {
+        "text-head": "Our Products",
+        "text-description": "We choose from several existing superior products, enjoy a different taste with so many benefits"
+    },
+    "our-articles": {
+        "text-head": "Articles",
+        "text-description": "Information and tips to increase your knowledge about Muscle First and the world of work out"
+    },
+    "our-discount": {
+        "text-head": "Discount Products",
+        "text-description": "Check all Muscle First platforms to get product discounts every time!"
+    },
+    "all-products": {
+        "text-head": "All Products",
+        "text-description": "Muscle First supplement with anti-boring flavor variant. (suggestion that the image below is sorted by flavor variant only, for example pro creatine, subtitles continue to contain images of all flavors of pro creatine products)"
+    },
+    "testimonials": {
+        "text-head": "Testimonials",
+        "text-description": "Those who have been keeping healthy with Muscle First, who's next?"
+    },
+    "challenges": {
+        "text-head": "Selection Challenge",
+        "text-description": "We challenge Muscle friends to beat the challenges and win great prizes!"
+    },
+    "community": {
+        "text-head": "Loved By Our Comunity",
+        "text-description": "Follow official @musclefirstofficial to get more information and tag us",
+        "text-button": "Join Community"
+    },
+    "contact-us": {
+        "text-head": "Contact Us",
+        "text-description": "Muscle First wants to hear the opinions of Muscle friends, both good things, ideas and constructive criticism for our improvement. Feel free to email us or fill out the form below.",
+        "text-list-one": "Emails sent outside of business hours will be replied to on the next business day.",
+        "text-list-two": "Due to the large number of messages Muscle First received, it took us some time to reciprocate, so your patience is appreciated."
+    },
+    "nav-footer": {
+        "company": {
+            "title": "Company",
+            "article": "Article",
+            "about": "About",
+            "career": "Careers",
+            "brand": "Brand Center"
+        },
+        "sosial-center": {
+            "title": "Sosial Center",
+            "shopee": "Shopee",
+            "tiktok": "Tiktok",
+            "facebook": "Facebook",
+            "instagram": "Instagram",
+            "contact": "Contact Us"
+        },
+        "legal": {
+            "title": "Legal",
+            "licensing": "Licensing",
+            "privacy": "Privacy Policy",
+            "terms": "Terms & Conditions"
+        }
+    }
+}

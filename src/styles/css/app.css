@@ -1,0 +1,111 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+    @font-face {
+        font-family: 'Across the Street';
+        src: url('/assets/fonts/across-the-street.otf');
+        font-weight: normal;
+        font-display: swap;
+    }
+    @font-face {
+        font-family: 'Solois';
+        src: url('/assets/fonts/soloisthalf21.ttf');
+        font-weight: bold;
+        font-display: swap;
+    }
+    @font-face {
+        font-family: 'Bank Ghotic';
+        src: url('/assets/fonts/bank-gothic.ttf');
+        font-weight: bold;
+        font-display: swap;
+    }
+    @font-face {
+        font-family: 'TTNorms';
+        src: url('/assets/fonts/ttnorms.otf');
+        font-weight: black;
+        font-display: swap;
+    }
+    @font-face {
+        font-family: 'TTNorms Extra Bold';
+        src: url('/assets/fonts/ttnorms-extrabold.otf');
+        font-weight: normal;
+        font-display: swap;
+    }
+    @font-face {
+        font-family: 'TTNorms Black';
+        src: url('/assets/fonts/ttnorms-black.otf');
+        font-weight: black;
+        font-display: swap;
+    }
+    @font-face {
+        font-family: 'Mighty Brush';
+        src: url('/assets/fonts/mighty-brush.otf');
+        font-weight: normal;
+        font-display: swap;
+    }
+    @font-face {
+        font-family: 'Benmo Jinhei';
+        src: url('/assets/fonts/benmo-jinhei.ttf');
+        font-weight: normal;
+        font-display: swap;
+    }
+}
+
+
+/*     
+@layer components {
+    .bg-gradient-animation {
+        @apply animate-gradient bg-gradient-to-r from-mint-gradian via-purple-gradian to-red-gradian bg-[length: 400%_400%];
+    }
+} */
+
+
+/* Firefox */
+
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #3a3a3a;
+}
+
+
+/* Chrome, Edge, and Safari */
+
+*::-webkit-scrollbar {
+    width: 2px;
+}
+
+*::-webkit-scrollbar-track {
+    background: #222222;
+    border-radius: 0px;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #3a3a3a;
+    border-radius: 0px;
+    border: 1px solid #3a3a3a;
+}
+
+body {
+    /* --scrollbar-primary-color: #3730a3; */
+    --scrollbar-primary-color: #1d1d27;
+    --text-color: #222222;
+}
+
+img {
+    width: 100%;
+    /* or max-width: 100%; */
+    height: auto;
+}
+
+.scroll-lock {
+    overflow-y: hidden;
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}
+
+.scroll-lock::-webkit-scrollbar {
+    display: none;
+}
