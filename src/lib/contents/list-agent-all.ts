@@ -173,7 +173,7 @@ export const listAgenData = [
     },
     { 
       id: 'LSAD08',
-      wilayah: "Depok",
+      wilayah: "",
       listAgen: [
         {
           id: 'LSAD08-01',
@@ -195,6 +195,16 @@ export const listAgenData = [
           waChatText: waMessage,
           codType: true,
         },
+        {
+          id: 'LSAD08-03',
+          personName: "Musclepotions",
+          distric: "Depok",
+          agenType: "Basic",
+          waNumber: "+6281226487182",
+          address: "Perumahan bukit cengkeh 2, blok b3 no5, cimanggis, depok",
+          waChatText: waMessage,
+          codType: true,
+        }
       ]
     },
     { 
@@ -1064,7 +1074,7 @@ export const listAgenData = [
         },
         {
           id: 'LSAD41-06',
-          personName: "Daniel Alexander Gunawan",
+          personName: "Tokonielsby (Merr Rungkut & Free Gojek)",
           distric: "Semarang/Surabaya",
           agenType: "Basic",
           waNumber: "+6282233717303",

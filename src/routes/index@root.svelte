@@ -17,11 +17,11 @@
 </script>
 
 <script lang="ts">
-    import { onMount } from 'svelte';
     import { SEO } from '$general/index';
-    import { Jumbotron, Service, Product, Contact, Promo, Consultation, CtaAgent, Calculator, CertifiedLabel } from '$section/home/index';
+    import { Service, Product, Contact, Promo, Consultation, CtaAgent, Calculator, CertifiedLabel } from '$section/home/index';
     import { websiteSchema, organizationSchema } from '$utils/json-ld';
     import ogImageSite from '$images/site/og-img-site.webp';
+    // import SliderHome from '$components/section/home/Banner/SliderHome.svelte'
     import BannerHome from '$components/section/home/Banner/BannerHome.svelte'
 
     export let promoActive: boolean = false;
@@ -40,6 +40,7 @@
 
 <!-- <Jumbotron id="main" /> -->
 <BannerHome/>
+<!-- <SliderHome/> -->
 <Service id="service" />
 <Promo {promoActive} {cdnActive} {promoType} id="promo" />
 <Consultation id="consultation" />
