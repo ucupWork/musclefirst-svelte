@@ -26,6 +26,7 @@
     import ProductTwo from '$images/product/pro-creatine/unflavored/produk-02-2.webp';
     import ProductThreeOne from '$images/product/pro-creatine/unflavored/produk-03-1.webp';
     import ProductThree from '$images/product/pro-creatine/unflavored/produk-03-2.webp';
+    import HargaUnflav from '$components/layout-lp/v-six/HargaUnflav.svelte'
 
     let productName: string = "Pro Creatine Unflavored";
     let subTitlePin= false;
@@ -87,7 +88,7 @@
 <SectionCertified certifiedCardList={certifiedList} />
 <SectionAllProducts products={productList} />
 
-<SectionFive 
+<HargaUnflav
     bgColorSection="zinc-900"
     {beforePriceLabel}
     subtitle="Promo Khusus Pemesanan Pre Order"
@@ -96,13 +97,11 @@
     altImg="HargaImage"
     titlePrice='<span class="block text-white">Muscle First Pro Creatine</span>'
     descriptionPrice='
-    <span class="uppercase font-bold text-white">bisa didapatkan</span>
+    <span class="uppercase font-bold text-white">beli di agen terdekat di kotamu</span>
     <h3 class="text-gray-100 font-base text-xl md:text-2xl uppercase font-bold">Dengan harga</h3>'
     bonusText='<b>Gratis Shaker</b> + <b>Gratis Scoop</b>'
-    beforePrice="250.000"
-    afterPrice="195.000"
-    linkShopee=""
-    linkWhatsapp="https://wa.me/6285174226889/?text=Info%20Dari%20Website%20%3A%22Hallo%2C%20Saya%20tertarik%20dengan%rasa%20baru%20Muscle%20First%20pro%2Bcreatine%22"
+    beforePrice="150.000"
+    afterPrice="99.000"
 />
 
 <SectionFour 

@@ -76,7 +76,7 @@ export const bangkaBelitungList: ListAgen[] = [
 ]
 // Banten
 export const bantenList: ListAgen[] = [
-    {
+    { 
       personName: "Adi Firmansyah",
       agenType: "Basic",
       waNumber: "6282125405797",

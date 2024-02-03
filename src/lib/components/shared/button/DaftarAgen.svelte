@@ -23,11 +23,11 @@
         </div>
     </div>
     {#if colorType === 'default'}
-    <a rel="noreferrer" target="_blank" href={'https://wa.me/6282261111868/?text=Info+Dari+Website+%3A%22Hallo%2C+Saya+tertarik+untuk+bergabung+menjadi+agen+Muscle+First+nih+.%22&type=phone_number&app_absent=0'} class="w-auto h-auto bg-gradient-to-r from-orange-400 to-amber-400 shadow-lg border shadow-orange-600/50 px-8 py-4 rounded">
+    <a rel="noreferrer" target="_blank" href={'https://wa.me/6281289497391/?text=Info+Dari+Website+%3A%22Hallo%2C+Saya+tertarik+untuk+bergabung+menjadi+agen+Muscle+First+nih+.%22&type=phone_number&app_absent=0'} class="w-auto h-auto bg-gradient-to-r from-orange-400 to-amber-400 shadow-lg border shadow-orange-600/50 px-8 py-4 rounded">
         <span class="text-white uppercase text-sm font-bold">Daftar Agen</span>
     </a>
     {:else}
-    <a rel="noreferrer" target="_blank" href={'https://wa.me/6282261111868/?text=Info+Dari+Website+%3A%22Hallo%2C+Saya+tertarik+untuk+bergabung+menjadi+agen+Muscle+First+nih+.%22&type=phone_number&app_absent=0'} class="w-auto h-auto bg-gradient-to-r from-rose-400 to-pink-400 shadow-lg border shadow-rose-600/50 px-8 py-4 rounded">
+    <a rel="noreferrer" target="_blank" href={'https://wa.me/6281289497391/?text=Info+Dari+Website+%3A%22Hallo%2C+Saya+tertarik+untuk+bergabung+menjadi+agen+Muscle+First+nih+.%22&type=phone_number&app_absent=0'} class="w-auto h-auto bg-gradient-to-r from-rose-400 to-pink-400 shadow-lg border shadow-rose-600/50 px-8 py-4 rounded">
         <span class="text-white uppercase text-sm font-bold">Daftar Agen</span>
     </a>
     {/if}
