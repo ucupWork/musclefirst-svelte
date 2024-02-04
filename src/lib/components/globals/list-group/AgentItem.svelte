@@ -22,13 +22,13 @@
                     <span class="flex font-bold text-amber-500">
                         {val.personName}
                     </span>
-                    <div class="flex flex-row items-center space-x-2 md:space-x-3 w-auto h-auto">
+                    <div class="flex flex-row text-white items-center space-x-2 md:space-x-3 w-auto h-auto">
                         <div class="ml-0 text-sm">
-                            <small class="text-zinc-900 uppercase font-medium italic">{val.agenType}</small>
+                            <small class=" uppercase font-medium italic">{val.agenType}</small>
                         </div>
                         {#if val.distric}
                         <div class="text-xs">
-                            <small class="text-zinc-900 uppercase">{val.distric}</small>
+                            <small class=" uppercase">{val.distric}</small>
                         </div>
                         {/if}
                     </div>

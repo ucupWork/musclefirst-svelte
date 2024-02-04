@@ -1,0 +1,18 @@
+User-agent: Mediapartner-Google
+Disallow:
+
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Disallow: /search
+Disallow: /privacy-policy
+Disallow: /terms-condition
+Disallow: /security-policy
+Disallow: /disclaimer
+
+Allow: /
+Allow: /api
+Allow: /rss.xml
+Allow: /sitemap.xml
+
+# https://developers.google.com/search/docs/advanced/sitemaps/build-sitemap#addsitemap
+Sitemap: https://musclefirst.co.id/sitemap.xml
