@@ -1,5 +1,5 @@
 /** @type {import('@sveltejs/kit').Config} */
-import adapter from '@sveltejs/adapter-static';
+import adapterNode from '@sveltejs/adapter-node';
 import preprocess from 'svelte-preprocess';
 import mdsvexConfig from "./mdsvex.config.js";
 import { mdsvex } from "mdsvex";
@@ -33,8 +33,7 @@ const config = {
     },
 
     kit: {
-        adapter: adapter(),
-        appDir: 'public',
+        adapter: adapterNode(),
         methodOverride: {
             allowed: [
                 'PUT',
