@@ -73,6 +73,7 @@ export const listAgenData = [
             waNumber: "+6282147800028",
             address: "Jl. Raya Sesetan No 84A, Denpasar Selatan, Bali 80223",
             waChatText: waMessage,
+            mapsLink: "https://maps.app.goo.gl/ryedUEfenR6zdqEd7",
             tokpedLink: "https://www.tokopedia.com/zaengymstore",
             shopeeLink: "https://shopee.co.id/zaengymstore",
           },
@@ -173,7 +174,7 @@ export const listAgenData = [
     },
     { 
       id: 'LSAD08',
-      wilayah: "",
+      wilayah: "Depok",
       listAgen: [
         {
           id: 'LSAD08-01',
