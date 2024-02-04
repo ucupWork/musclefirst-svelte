@@ -1,0 +1,1 @@
+const a=[null,"January","February","March","April","May","June","July","August","September","October","November","December"],o=e=>{if(!e)return e;const r=e.split("-"),t=a[parseInt(r[1])],n=parseInt(r[2]),s=r[0];return`${t} ${n}, ${s}`};export{o as r};

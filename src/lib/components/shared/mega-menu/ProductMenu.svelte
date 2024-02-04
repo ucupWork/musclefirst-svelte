@@ -31,11 +31,6 @@
                     <h2 class="font-blackttnorms font-black text-xl text-black py-2 uppercase">
                         <span class="text-amber-600">Choose</span> Your Goals
                     </h2>
-                    <button on:click={() => { clickOutsideHandler(), ($openModalCS = `contact-support`) }} class="flex items-center space-x-2 text-sm py-2 px-4 bg-zinc-900 text-white rounded-full">
-                        <span class="font-ttnorms font-bold text-white text-xs uppercase tracking-widest">
-                            <small>{'Contact Support'}</small>
-                        </span>
-                    </button>
                 </div>
                 <div class="w-full h-auto p-0 px-12">
                     <div class="grid grid-cols-4 gap-4 w-full h-auto">
