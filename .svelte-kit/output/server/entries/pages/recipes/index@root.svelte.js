@@ -1,15 +1,15 @@
-import { c as create_ssr_component, e as escape, d as each, a as add_attribute, v as validate_component } from "../../../_app/immutable/chunks/index-b361c760.js";
+import { c as create_ssr_component, e as escape, d as each, a as add_attribute, v as validate_component } from "../../../_app/immutable/chunks/index-1e319aa9.js";
 import { a as recipeArticlesQuery } from "../../../_app/immutable/chunks/recipe-article-queries-41c36858.js";
 import { a as recipesQuery } from "../../../_app/immutable/chunks/recipe-queries-502ccb7d.js";
 import { c as client } from "../../../_app/immutable/chunks/graphql-client-72eb4369.js";
-import { S as SEO } from "../../../_app/immutable/chunks/SEO-a75d61d4.js";
+import { S as SEO } from "../../../_app/immutable/chunks/SEO-e606abe2.js";
 import "../../../_app/immutable/chunks/index-778a8503.js";
-import "../../../_app/immutable/chunks/common-65c7f3c2.js";
-import { B as Breadcrumbs } from "../../../_app/immutable/chunks/Breadcrumbs-b286f9d3.js";
+import "../../../_app/immutable/chunks/common-3de0477a.js";
+import { B as Breadcrumbs } from "../../../_app/immutable/chunks/Breadcrumbs-c48ae040.js";
 import { w as websiteSchema, o as organizationSchema } from "../../../_app/immutable/chunks/BannerPromo.svelte_svelte_type_style_lang-7d8a4bd9.js";
 import { r as readableDate } from "../../../_app/immutable/chunks/readable-date-297548ee.js";
 import "graphql-request";
-import "../../../_app/immutable/chunks/stores-290123b5.js";
+import "../../../_app/immutable/chunks/stores-75875272.js";
 import "../../../_app/immutable/chunks/site-data-ef8bff3e.js";
 const ImgNotfound = "/_app/immutable/assets/img-notfound-be16995f.webp";
 const Main = create_ssr_component(($$result, $$props, $$bindings, slots) => {

@@ -1,4 +1,4 @@
-import "../../_app/immutable/chunks/index-b361c760.js";
+import "../../_app/immutable/chunks/index-1e319aa9.js";
 import { c as client } from "../../_app/immutable/chunks/graphql-client-72eb4369.js";
 import { gql } from "graphql-request";
 import { d as data } from "../../_app/immutable/chunks/site-data-ef8bff3e.js";

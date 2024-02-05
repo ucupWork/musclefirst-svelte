@@ -1,4 +1,4 @@
-import { c as create_ssr_component, a as add_attribute } from "../../../_app/immutable/chunks/index-b361c760.js";
+import { c as create_ssr_component, a as add_attribute } from "../../../_app/immutable/chunks/index-1e319aa9.js";
 /* empty css                                                          */const Index_survey = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   let { id } = $$props;
   if ($$props.id === void 0 && $$bindings.id && id !== void 0)
