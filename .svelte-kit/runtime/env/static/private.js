@@ -12,7 +12,7 @@ export const ChocolateyInstall = "C:\\ProgramData\\chocolatey";
 export const ChocolateyLastPathUpdate = "133481303398910715";
 
 /** @type {import('$env/static/private').CHROME_CRASHPAD_PIPE_NAME} */
-export const CHROME_CRASHPAD_PIPE_NAME = "\\\\.\\pipe\\crashpad_18112_DFMHNOKHXXIZSKND";
+export const CHROME_CRASHPAD_PIPE_NAME = "\\\\.\\pipe\\crashpad_12724_NRIBMZLMHJIWVRHI";
 
 /** @type {import('$env/static/private').COLOR} */
 export const COLOR = "1";
@@ -246,7 +246,7 @@ export const VSCODE_GIT_IPC_HANDLE = "\\\\.\\pipe\\vscode-git-ac392b5d66-sock";
 export const VSCODE_INJECTION = "1";
 
 /** @type {import('$env/static/private').VSCODE_NONCE} */
-export const VSCODE_NONCE = "fd64201f-c9d8-405c-b100-3746f3f74669";
+export const VSCODE_NONCE = "569874a3-83c7-4360-8096-fa14250f8c1a";
 
 /** @type {import('$env/static/private').windir} */
 export const windir = "C:\\WINDOWS";

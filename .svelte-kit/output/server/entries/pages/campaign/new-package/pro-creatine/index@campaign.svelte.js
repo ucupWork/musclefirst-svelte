@@ -6,7 +6,7 @@ import "../../../../../_app/immutable/chunks/common-3de0477a.js";
 import { w as websiteSchema, o as organizationSchema } from "../../../../../_app/immutable/chunks/BannerPromo.svelte_svelte_type_style_lang-7d8a4bd9.js";
 import { S as SectionOne, a as SectionSix, b as SectionTwo, c as SectionThree, d as SectionCertified, e as SectionAllProducts, f as SectionFour } from "../../../../../_app/immutable/chunks/SectionCertified-74c660db.js";
 import { c as cocokCardList } from "../../../../../_app/immutable/chunks/index-9e56f2b5.js";
-import { c as certifiedList } from "../../../../../_app/immutable/chunks/list-certified-ca5808f6.js";
+import { c as certifiedList } from "../../../../../_app/immutable/chunks/list-certified-e272f300.js";
 import "../../../../../_app/immutable/chunks/stores-75875272.js";
 import "../../../../../_app/immutable/chunks/site-data-ef8bff3e.js";
 import "../../../../../_app/immutable/chunks/Index-1d60b221.js";

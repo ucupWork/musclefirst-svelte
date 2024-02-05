@@ -7,7 +7,7 @@ import { w as websiteSchema, o as organizationSchema } from "../../../../../_app
 import { S as SectionOne, a as SectionTwo, b as SectionThree, c as SectionFour, d as SectionSize, e as SectionCertified, f as SectionFive, g as SectionSeven, h as SectionEight, i as SectionNine } from "../../../../../_app/immutable/chunks/SectionCertified-7684e47b.js";
 import { S as SectionCountdown } from "../../../../../_app/immutable/chunks/SectionCountdown-e7406a0d.js";
 import { R as Rasa1, a as Rasa2, b as Rasa3, c as Rasa4, d as Rasa5, I as Icon1, e as Icon2, f as Icon3, g as Icon4 } from "../../../../../_app/immutable/chunks/rasa-5-0b65fe19.js";
-import { c as certifiedList } from "../../../../../_app/immutable/chunks/list-certified-ca5808f6.js";
+import { c as certifiedList } from "../../../../../_app/immutable/chunks/list-certified-e272f300.js";
 import "../../../../../_app/immutable/chunks/stores-75875272.js";
 import "../../../../../_app/immutable/chunks/site-data-ef8bff3e.js";
 import "../../../../../_app/immutable/chunks/Index-1d60b221.js";

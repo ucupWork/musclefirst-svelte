@@ -13,7 +13,7 @@ import "../../../_app/immutable/chunks/index-fe7c0294.js";
 import "../../../_app/immutable/chunks/CardNoResult-60b04b1f.js";
 import "../../../_app/immutable/chunks/DisclosureButton-f7891f7a.js";
 import "../../../_app/immutable/chunks/resolve-button-type-bf5607f2.js";
-import "../../../_app/immutable/chunks/list-certified-ca5808f6.js";
+import "../../../_app/immutable/chunks/list-certified-e272f300.js";
 import "../../../_app/immutable/chunks/CardCertified-3b8efa0e.js";
 const CardProductAgent = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   let { id } = $$props;

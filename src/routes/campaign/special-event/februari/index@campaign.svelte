@@ -39,7 +39,7 @@
 />
 
 <!-- copywriter component -->
-<TextCompFeb textPromo="Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt iste blanditiis repudiandae earum. Explicabo dolor repellat ipsa minima autem nesciunt neque ab, sed mollitia eaque similique? Rem mollitia vel alias ea excepturi tempora, incidunt eaque culpa numquam recusandae doloribus esse fugit voluptatibus, aliquid repellendus? Laudantium ipsa reprehenderit eius dolor nam consequatur molestiae molestias repellendus, aliquam fugit nesciunt, numquam deleniti nemo cupiditate, aspernatur voluptatum magnam inventore ipsam! Corporis quod consequuntur porro maxime vel laudantium nobis, saepe itaque veniam repellendus, possimus aliquid voluptatibus laboriosam quia eveniet deserunt error unde. Est reiciendis natus dicta labore voluptatem enim adipisci distinctio magni tempora beatae ullam, eveniet eaque nemo? Itaque placeat vitae, maxime commodi quaerat natus nisi beatae accusantium esse iusto corporis dolore aperiam voluptas. Doloremque."/>
+<TextCompFeb textPromo="Muscle First menghadirkan promo istimewa setiap pembelian paket partai bulking, cutting, dan glowing bisa mendapatkan angpao gratis dan sachet creatine. Periode promo hanya berlaku selama tanggal 1-15 Februari 2024! Segera dapatkan paket bundle ini untuk “Bentuk Tubuhmu dan Suarakan Kesehatanmu”! Promo berlaku untuk paket berikut:"/>
 
 <!-- paket component -->
 <PaketCompFeb />

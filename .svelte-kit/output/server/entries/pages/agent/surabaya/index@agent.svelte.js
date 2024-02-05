@@ -4,7 +4,7 @@ import "../../../../_app/immutable/chunks/index-778a8503.js";
 import "../../../../_app/immutable/chunks/common-3de0477a.js";
 import { w as websiteSchema, o as organizationSchema } from "../../../../_app/immutable/chunks/BannerPromo.svelte_svelte_type_style_lang-7d8a4bd9.js";
 import { S as SectionOne, a as SectionFour, b as SectionThree, c as SectionCertified, d as SectionTwo, e as SectionFive } from "../../../../_app/immutable/chunks/SectionCertified-55e42e30.js";
-import { c as certifiedList } from "../../../../_app/immutable/chunks/list-certified-ca5808f6.js";
+import { c as certifiedList } from "../../../../_app/immutable/chunks/list-certified-e272f300.js";
 import "../../../../_app/immutable/chunks/stores-75875272.js";
 import "../../../../_app/immutable/chunks/site-data-ef8bff3e.js";
 import "../../../../_app/immutable/chunks/crown-f3b9967b.js";

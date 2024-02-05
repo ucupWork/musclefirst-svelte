@@ -1,5 +1,5 @@
 import { c as create_ssr_component, a as add_attribute, d as each, v as validate_component } from "./index-1e319aa9.js";
-import { c as certifiedList } from "./list-certified-ca5808f6.js";
+import { c as certifiedList } from "./list-certified-e272f300.js";
 import { C as CardCertified } from "./CardCertified-3b8efa0e.js";
 const CertifiedLabel = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   let { id } = $$props;

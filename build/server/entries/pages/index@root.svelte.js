@@ -12,7 +12,7 @@ import { $, addClass, removeClass, hasClass, toggleClass, attr, removeAttr, tran
 import { B as BannerUnflav } from "../../_app/immutable/chunks/banner-jumbotron-ec22f4bf.js";
 import "../../_app/immutable/chunks/stores-75875272.js";
 import "../../_app/immutable/chunks/site-data-ef8bff3e.js";
-import "../../_app/immutable/chunks/list-certified-ca5808f6.js";
+import "../../_app/immutable/chunks/list-certified-e272f300.js";
 import "../../_app/immutable/chunks/CardCertified-3b8efa0e.js";
 const CardService = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   let { colorTypeOuter } = $$props;
@@ -4289,11 +4289,10 @@ const SliderHome = create_ssr_component(($$result, $$props, $$bindings, slots) =
       default: () => {
         return `${validate_component(Swiper_slide, "SwiperSlide").$$render($$result, {}, {}, {
           default: () => {
-            return `<a href="${"/products"}" target="${"_blank"}">
-            <img${add_attribute("src", BannerPaket, 0)} alt="${"Promo Muscle First"}" class="${"w-full h-full"}"></a>`;
+            return `<a href="${"/campaign/special-event/februari"}" target="${"_blank"}"><img${add_attribute("src", BannerPaket, 0)} alt="${"Promo Muscle First"}" class="${"w-full h-full"}"></a>`;
           }
         })}
-        ${validate_component(Swiper_slide, "SwiperSlide").$$render($$result, {}, {}, {
+    ${validate_component(Swiper_slide, "SwiperSlide").$$render($$result, {}, {}, {
           default: () => {
             return `<a href="${"/campaign/new-flavor/pro-creatine"}" target="${"_blank"}"><img${add_attribute("src", BannerUnflav, 0)} alt="${"Promo Muscle First"}" class="${"w-full h-full"}"></a>`;
           }

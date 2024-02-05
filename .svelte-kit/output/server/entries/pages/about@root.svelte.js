@@ -4,7 +4,7 @@ import "../../_app/immutable/chunks/index-778a8503.js";
 import "../../_app/immutable/chunks/common-3de0477a.js";
 import { B as Breadcrumbs } from "../../_app/immutable/chunks/Breadcrumbs-c48ae040.js";
 import { w as websiteSchema, o as organizationSchema } from "../../_app/immutable/chunks/BannerPromo.svelte_svelte_type_style_lang-7d8a4bd9.js";
-import { c as certifiedList } from "../../_app/immutable/chunks/list-certified-ca5808f6.js";
+import { c as certifiedList } from "../../_app/immutable/chunks/list-certified-e272f300.js";
 import { C as CardCertified } from "../../_app/immutable/chunks/CardCertified-3b8efa0e.js";
 import "../../_app/immutable/chunks/stores-75875272.js";
 import "../../_app/immutable/chunks/site-data-ef8bff3e.js";
