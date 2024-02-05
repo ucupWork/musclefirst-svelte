@@ -1,4 +1,3 @@
-import "./index-1e319aa9.js";
 const certifiedList = [
   {
     id: 1,

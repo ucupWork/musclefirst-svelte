@@ -10,11 +10,11 @@ import { p as productList } from "../../../_app/immutable/chunks/list-products-4
 import { D as DialogOverlay, a as DialogTitle, b as Description } from "../../../_app/immutable/chunks/Description-9da074e2.js";
 import { C as CardCertified } from "../../../_app/immutable/chunks/CardCertified-3b8efa0e.js";
 /* empty css                                                                            */import { p as productList$1 } from "../../../_app/immutable/chunks/list-products-fcdc0a2c.js";
-import { c as certifiedList } from "../../../_app/immutable/chunks/list-certified-ca5808f6.js";
+import { c as certifiedList } from "../../../_app/immutable/chunks/list-certified-e272f300.js";
 import { I as IndexScript } from "../../../_app/immutable/chunks/IndexScript-80586391.js";
 import "../../../_app/immutable/chunks/stores-75875272.js";
 import "../../../_app/immutable/chunks/site-data-ef8bff3e.js";
-const LabdoorCertified = "/_app/immutable/assets/logo-label-06-8c32ce15.webp";
+const LabelSix = "/_app/immutable/assets/logo-label-06-8c32ce15.webp";
 const CardProductList = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   let $$unsubscribe_openModal;
   $$unsubscribe_openModal = subscribe(openModal, (value) => value);
@@ -35,7 +35,7 @@ const CardProductList = create_ssr_component(($$result, $$props, $$bindings, slo
     $$bindings.breakpoints(breakpoints);
   $$unsubscribe_openModal();
   return `${each(cardProductList.filter((product) => product.category === typeProduct), (list) => {
-    return `<div${add_attribute("id", list.id, 0)} class="${"col-span-full md:col-span-1 flex flex-col md:flex-row md:p-4 w-full h-auto justify-center items-center bg-transparent md:rounded shadow hover:shadow-lg"}"><div class="${"flex flex-col w-full h-auto items-center"}"><a${add_attribute("href", `/${list.linkHref}`, 0)} class="${"grid grid-cols-2 gap-0 w-full md:w-auto h-auto md:rounded-xl border border-yellow-200"}"><div class="${"col-span-full md:col-span-1 w-full h-full relative"}">${list.labdoor ? `<div class="${"absolute left-4 top-2 flex md:hidden w-auto h-auto z-10"}"><div class="${"w-auto h-auto p-1 shadow-md rounded-full border bg-zinc-100"}"><img class="${"w-10 h-auto"}"${add_attribute("src", LabdoorCertified, 0)} alt="${"Labdoor Certified"}"></div>
+    return `<div${add_attribute("id", list.id, 0)} class="${"col-span-full md:col-span-1 flex flex-col md:flex-row md:p-4 w-full h-auto justify-center items-center bg-transparent md:rounded shadow hover:shadow-lg"}"><div class="${"flex flex-col w-full h-auto items-center"}"><a${add_attribute("href", `/${list.linkHref}`, 0)} class="${"grid grid-cols-2 gap-0 w-full md:w-auto h-auto md:rounded-xl border border-yellow-200"}"><div class="${"col-span-full md:col-span-1 w-full h-full relative"}">${list.labdoor ? `<div class="${"absolute left-4 top-2 flex md:hidden w-auto h-auto z-10"}"><div class="${"w-auto h-auto p-1 shadow-md rounded-full border bg-zinc-100"}"><img class="${"w-10 h-auto"}"${add_attribute("src", LabelSix, 0)} alt="${"Labdoor Certified"}"></div>
                 </div>` : ``}
 
                 <picture><source${add_attribute("srcset", list.imgUrl, 0)} type="${"image/webp"}">
@@ -55,7 +55,7 @@ const CardProductList = create_ssr_component(($$result, $$props, $$bindings, slo
       {}
     )}
                 </picture></div>
-            <div class="${"col-span-full md:col-span-1 w-full h-full flex flex-col justify-center items-start bg-white hover:bg-zinc-50 md:rounded-r-xl py-4 md:py-0 relative"}">${list.labdoor ? `<div class="${"absolute right-4 top-2 hidden md:flex w-auto h-auto z-10"}"><div class="${"w-auto h-auto p-1 shadow-md rounded-full border bg-zinc-100"}"><img class="${"w-10 h-auto"}"${add_attribute("src", LabdoorCertified, 0)} alt="${"Labdoor Certified"}"></div>
+            <div class="${"col-span-full md:col-span-1 w-full h-full flex flex-col justify-center items-start bg-white hover:bg-zinc-50 md:rounded-r-xl py-4 md:py-0 relative"}">${list.labdoor ? `<div class="${"absolute right-4 top-2 hidden md:flex w-auto h-auto z-10"}"><div class="${"w-auto h-auto p-1 shadow-md rounded-full border bg-zinc-100"}"><img class="${"w-10 h-auto"}"${add_attribute("src", LabelSix, 0)} alt="${"Labdoor Certified"}"></div>
                 </div>` : ``}
 
                 <div class="${"flex flex-col w-auto h-auto py-0 px-8 bg-transparent mb-2 leading-none tracking-tighter"}"><h2 class="${"font-bold uppercase text-md text-zinc-600"}">${escape(list.typeProduct)}</h2>
