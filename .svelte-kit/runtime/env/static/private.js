@@ -12,7 +12,7 @@ export const ChocolateyInstall = "C:\\ProgramData\\chocolatey";
 export const ChocolateyLastPathUpdate = "133481303398910715";
 
 /** @type {import('$env/static/private').CHROME_CRASHPAD_PIPE_NAME} */
-export const CHROME_CRASHPAD_PIPE_NAME = "\\\\.\\pipe\\crashpad_24948_OPXGQHDSUAEXNFBY";
+export const CHROME_CRASHPAD_PIPE_NAME = "\\\\.\\pipe\\crashpad_18112_DFMHNOKHXXIZSKND";
 
 /** @type {import('$env/static/private').COLOR} */
 export const COLOR = "1";
@@ -64,9 +64,6 @@ export const LOGONSERVER = "\\\\DESKTOP-HOMC46M";
 
 /** @type {import('$env/static/private').NODE} */
 export const NODE = "C:\\Program Files\\nodejs\\node.exe";
-
-/** @type {import('$env/static/private').NODE_ENV} */
-export const NODE_ENV = "production";
 
 /** @type {import('$env/static/private').NODE_EXE} */
 export const NODE_EXE = "C:\\Program Files\\nodejs\\\\node.exe";
@@ -120,10 +117,10 @@ export const npm_config_use_inline_specifiers_lockfile_format = "true";
 export const npm_execpath = "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js";
 
 /** @type {import('$env/static/private').npm_lifecycle_event} */
-export const npm_lifecycle_event = "build";
+export const npm_lifecycle_event = "sveltekit";
 
 /** @type {import('$env/static/private').npm_lifecycle_script} */
-export const npm_lifecycle_script = "vite build";
+export const npm_lifecycle_script = "vite dev";
 
 /** @type {import('$env/static/private').npm_node_execpath} */
 export const npm_node_execpath = "C:\\Program Files\\nodejs\\node.exe";
@@ -156,7 +153,7 @@ export const ORIGINAL_XDG_CURRENT_DESKTOP = "undefined";
 export const OS = "Windows_NT";
 
 /** @type {import('$env/static/private').Path} */
-export const Path = "C:\\Users\\SELA\\OneDrive\\Desktop\\lp-baru\\node_modules\\.bin;C:\\Users\\SELA\\OneDrive\\Desktop\\node_modules\\.bin;C:\\Users\\SELA\\OneDrive\\node_modules\\.bin;C:\\Users\\SELA\\node_modules\\.bin;C:\\Users\\node_modules\\.bin;C:\\node_modules\\.bin;C:\\Program Files\\nodejs\\node_modules\\npm\\node_modules\\@npmcli\\run-script\\lib\\node-gyp-bin;C:\\Python312\\Scripts\\;C:\\Python312\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\nodejs;C:\\Program Files\\Git\\cmd;C:\\Users\\SELA\\AppData\\Local\\Microsoft\\WindowsApps;;C:\\Users\\SELA\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\SELA\\AppData\\Roaming\\npm";
+export const Path = "C:\\Users\\SELA\\OneDrive\\Desktop\\lp-baru\\node_modules\\.bin;C:\\Users\\SELA\\OneDrive\\Desktop\\node_modules\\.bin;C:\\Users\\SELA\\OneDrive\\node_modules\\.bin;C:\\Users\\SELA\\node_modules\\.bin;C:\\Users\\node_modules\\.bin;C:\\node_modules\\.bin;C:\\Program Files\\nodejs\\node_modules\\npm\\node_modules\\@npmcli\\run-script\\lib\\node-gyp-bin;C:\\Users\\SELA\\OneDrive\\Desktop\\lp-baru\\node_modules\\.bin;C:\\Users\\SELA\\OneDrive\\Desktop\\node_modules\\.bin;C:\\Users\\SELA\\OneDrive\\node_modules\\.bin;C:\\Users\\SELA\\node_modules\\.bin;C:\\Users\\node_modules\\.bin;C:\\node_modules\\.bin;C:\\Program Files\\nodejs\\node_modules\\npm\\node_modules\\@npmcli\\run-script\\lib\\node-gyp-bin;C:\\Python312\\Scripts\\;C:\\Python312\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\nodejs;C:\\Program Files\\Git\\cmd;C:\\Users\\SELA\\AppData\\Local\\Microsoft\\WindowsApps;;C:\\Users\\SELA\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\SELA\\AppData\\Roaming\\npm";
 
 /** @type {import('$env/static/private').PATHEXT} */
 export const PATHEXT = ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW;.CPL";

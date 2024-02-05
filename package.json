@@ -4,7 +4,7 @@
     "description": "An application musclefirst landing page with other page for promotional and marketer target.",
     "repository": {
         "type": "git",
-        "url": "https://github.com/Ikziriv/musclefirst-site"
+        "url": "https://github.com/ucupWork/musclefirst-svelte"
     },
     "scripts": {
         "dev": "npm-run-all --parallel sveltekit",
