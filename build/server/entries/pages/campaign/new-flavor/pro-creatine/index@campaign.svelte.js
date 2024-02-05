@@ -1,20 +1,20 @@
-import { c as create_ssr_component, e as escape, a as add_attribute, v as validate_component } from "../../../../../_app/immutable/chunks/index-b361c760.js";
-import { S as SEO } from "../../../../../_app/immutable/chunks/SEO-a75d61d4.js";
+import { c as create_ssr_component, e as escape, a as add_attribute, v as validate_component } from "../../../../../_app/immutable/chunks/index-1e319aa9.js";
+import { S as SEO } from "../../../../../_app/immutable/chunks/SEO-e606abe2.js";
 import { p as productList } from "../../../../../_app/immutable/chunks/list-products-4425d867.js";
 import "../../../../../_app/immutable/chunks/index-778a8503.js";
-import "../../../../../_app/immutable/chunks/common-65c7f3c2.js";
+import "../../../../../_app/immutable/chunks/common-3de0477a.js";
 import { w as websiteSchema, o as organizationSchema } from "../../../../../_app/immutable/chunks/BannerPromo.svelte_svelte_type_style_lang-7d8a4bd9.js";
-import { S as SectionOne, a as SectionSix, b as SectionTwo, c as SectionThree, d as SectionCertified, e as SectionAllProducts, f as SectionFour } from "../../../../../_app/immutable/chunks/SectionCertified-6ade95e6.js";
+import { S as SectionOne, a as SectionSix, b as SectionTwo, c as SectionThree, d as SectionCertified, e as SectionAllProducts, f as SectionFour } from "../../../../../_app/immutable/chunks/SectionCertified-74c660db.js";
 import { c as cocokCardList } from "../../../../../_app/immutable/chunks/index-9e56f2b5.js";
-import { c as certifiedList } from "../../../../../_app/immutable/chunks/list-certified-ca6195bc.js";
-import "../../../../../_app/immutable/chunks/stores-290123b5.js";
+import { c as certifiedList } from "../../../../../_app/immutable/chunks/list-certified-ca5808f6.js";
+import { B as BannerUnflav } from "../../../../../_app/immutable/chunks/banner-jumbotron-ec22f4bf.js";
+import "../../../../../_app/immutable/chunks/stores-75875272.js";
 import "../../../../../_app/immutable/chunks/site-data-ef8bff3e.js";
-import "../../../../../_app/immutable/chunks/Index-d5c83651.js";
-import "../../../../../_app/immutable/chunks/index-29c1f748.js";
-import "../../../../../_app/immutable/chunks/CardNoResult-a13636d9.js";
-import "../../../../../_app/immutable/chunks/DisclosureButton-e519f4d4.js";
+import "../../../../../_app/immutable/chunks/Index-1d60b221.js";
+import "../../../../../_app/immutable/chunks/index-fe7c0294.js";
+import "../../../../../_app/immutable/chunks/CardNoResult-60b04b1f.js";
+import "../../../../../_app/immutable/chunks/DisclosureButton-f7891f7a.js";
 import "../../../../../_app/immutable/chunks/resolve-button-type-bf5607f2.js";
-const BannerJumbotron = "/_app/immutable/assets/banner-jumbotron-42e8fea8.webp";
 const ProductOne = "/_app/immutable/assets/produk-01-1-a0aaa494.webp";
 const ProductTwoOne = "/_app/immutable/assets/produk-02-1-0ed3837a.webp";
 const ProductTwo = "/_app/immutable/assets/produk-02-2-60b700b1.webp";
@@ -83,7 +83,7 @@ const Index_campaign = create_ssr_component(($$result, $$props, $$bindings, slot
 ${validate_component(SectionOne, "SectionOne").$$render(
     $$result,
     {
-      banner: BannerJumbotron,
+      banner: BannerUnflav,
       txtPenawaran: "",
       txtSubPenawaran: "",
       classTxtPenawaran: "text-white",

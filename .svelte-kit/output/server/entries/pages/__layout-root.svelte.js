@@ -1,26 +1,26 @@
-import { c as create_ssr_component, a as add_attribute, b as subscribe, v as validate_component, d as each, e as escape, m as missing_component } from "../../_app/immutable/chunks/index-b361c760.js";
-import { D as Disclosure, w as writable, a as Dialog, d as derived } from "../../_app/immutable/chunks/common-65c7f3c2.js";
-import { p as page, n as navigating } from "../../_app/immutable/chunks/stores-290123b5.js";
-import { I as IndexScript } from "../../_app/immutable/chunks/IndexScript-fa8c5024.js";
-import { I as IndexScript$1 } from "../../_app/immutable/chunks/IndexScript-ff9b4fcb.js";
-import { I as Index } from "../../_app/immutable/chunks/Index-3bab978c.js";
-import { s as searchTerm, o as openmenuproduct, a as openmobile, d as disabledScroll, b as openModalCS, c as state } from "../../_app/immutable/chunks/index-29c1f748.js";
-import { I as ImageResponsive } from "../../_app/immutable/chunks/ImageResponsive-f60ed2d2.js";
-import { D as DisclosureButton, a as DisclosurePanel } from "../../_app/immutable/chunks/DisclosureButton-e519f4d4.js";
+import { c as create_ssr_component, a as add_attribute, b as subscribe, v as validate_component, d as each, e as escape, m as missing_component } from "../../_app/immutable/chunks/index-1e319aa9.js";
+import { D as Disclosure, w as writable, a as Dialog, d as derived } from "../../_app/immutable/chunks/common-3de0477a.js";
+import { p as page, n as navigating } from "../../_app/immutable/chunks/stores-75875272.js";
+import { I as IndexScript } from "../../_app/immutable/chunks/IndexScript-9956b2ac.js";
+import { I as IndexScript$1 } from "../../_app/immutable/chunks/IndexScript-80586391.js";
+import { I as Index } from "../../_app/immutable/chunks/Index-6d2e1a19.js";
+import { s as searchTerm, o as openmenuproduct, a as openmobile, d as disabledScroll, b as openModalCS, c as state } from "../../_app/immutable/chunks/index-fe7c0294.js";
+import { I as ImageResponsive } from "../../_app/immutable/chunks/ImageResponsive-f45806c8.js";
+import { D as DisclosureButton, a as DisclosurePanel } from "../../_app/immutable/chunks/DisclosureButton-f7891f7a.js";
 import { L as LogoBlack } from "../../_app/immutable/chunks/logo-black-7f994433.js";
 /* empty css                                                                         */import { L as LogoWhite } from "../../_app/immutable/chunks/logo-white-bbda6e5d.js";
-import { D as DialogOverlay, a as DialogTitle, b as Description } from "../../_app/immutable/chunks/Description-95a56521.js";
+import { D as DialogOverlay, a as DialogTitle, b as Description } from "../../_app/immutable/chunks/Description-9da074e2.js";
 import { c as commonjsGlobal } from "../../_app/immutable/chunks/BannerPromo.svelte_svelte_type_style_lang-7d8a4bd9.js";
 import { c as commonjsRequire } from "../../_app/immutable/chunks/_commonjs-dynamic-modules-bf2a53fc.js";
 import "../../_app/immutable/chunks/index-e87efd75.js";
-/* empty css                                        */import { T as TopTop } from "../../_app/immutable/chunks/TopTop-348c5c30.js";
+/* empty css                                        */import { T as TopTop } from "../../_app/immutable/chunks/TopTop-f5e9c00b.js";
 import "../../_app/immutable/chunks/index-778a8503.js";
 import { p as productList } from "../../_app/immutable/chunks/list-products-4425d867.js";
-import { C as CardNoResult } from "../../_app/immutable/chunks/CardNoResult-a13636d9.js";
-import { F as Footer } from "../../_app/immutable/chunks/Footer-6c2e0600.js";
-import { L as Loading } from "../../_app/immutable/chunks/Loading-7434f1ad.js";
+import { C as CardNoResult } from "../../_app/immutable/chunks/CardNoResult-60b04b1f.js";
+import { F as Footer } from "../../_app/immutable/chunks/Footer-6c9f3d42.js";
+import { L as Loading } from "../../_app/immutable/chunks/Loading-5c31a686.js";
 import EmblaCarousel from "embla-carousel";
-import { T as TransitionPage } from "../../_app/immutable/chunks/TransitionPage-965da6ab.js";
+import { T as TransitionPage } from "../../_app/immutable/chunks/TransitionPage-ed9081c6.js";
 import "../../_app/immutable/chunks/resolve-button-type-bf5607f2.js";
 import "../../_app/immutable/chunks/site-data-ef8bff3e.js";
 const Menu = create_ssr_component(($$result, $$props, $$bindings, slots) => {
@@ -233,8 +233,8 @@ const MiniBanner = create_ssr_component(($$result, $$props, $$bindings, slots) =
     plugins: [Autoplay()]
   });
   $$result.css.add(css$4);
-  return `<div class="${"hidden md:flex flex-col md:flex-row justify-between items-center bg-[#0a0908] border-b border-zinc-900 w-full h-auto px-4 md:px-14 py-2"}"><div class="${"flex justify-start items-start"}"><div class="${"embla svelte-1s3qugw"}"><div class="${"embla__container svelte-1s3qugw"}"><div class="${"embla__slide svelte-1s3qugw"}"><span class="${"font-normal text-xs md:text-sm uppercase"}"><small class="${"text-amber-500 font-bold"}">90% off</small>
-                        <small class="${"text-white"}">tokopedia flash sale zona sehat</small></span></div>
+  return `<div class="${"hidden md:flex flex-col md:flex-row justify-between items-center bg-[#0a0908] border-b border-zinc-900 w-full h-auto px-4 md:px-14 py-2"}"><div class="${"flex justify-start items-start"}"><div class="${"embla svelte-1s3qugw"}"><div class="${"embla__container svelte-1s3qugw"}"><div class="${"embla__slide svelte-1s3qugw"}"><span class="${"font-normal text-xs md:text-sm uppercase"}"><small class="${"text-amber-500 font-bold"}">Paket Bundling Shopee</small>
+                        <small class="${"text-white"}">Tersedia Paket Bulking, Cutting, atau Glowing</small></span></div>
                 <div class="${"embla__slide svelte-1s3qugw"}"><span class="${"font-normal text-xs md:text-sm uppercase"}"><small class="${"text-amber-500 font-bold"}">Musclefirst kalkulator</small>
                         <small class="${"text-white"}">, membantu kesehatan anda secara online</small></span></div></div></div></div>
     

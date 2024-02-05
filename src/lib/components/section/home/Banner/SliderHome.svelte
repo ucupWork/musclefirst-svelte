@@ -3,6 +3,8 @@
     import {FreeMode, Autoplay} from 'swiper';
     import 'swiper/css';
 
+    import BannerPaket from '$images/banner/home/februari-2024.webp'
+    import BannerUnflav from '$images/product/pro-creatine/unflavored/banner-jumbotron.webp'
 </script>
     
     <div class="px-4 md:px-16">
@@ -20,13 +22,15 @@
         modules={[FreeMode,  Autoplay]}
       >
         <SwiperSlide>
-            <img src='https://dev-store-ucup.pantheonsite.io/wp-content/uploads/2024/01/banner2.webp' alt="Promo Muscle First" class="w-full h-full">
+          <a href="/products" target="_blank">
+          <!-- <a href="/campaign/new-flavor/pro-creatine" target="_blank"> -->
+            <img src={BannerPaket} alt="Promo Muscle First" class="w-full h-full">
+          </a>
         </SwiperSlide>
         <SwiperSlide>
-            <img src='https://dev-store-ucup.pantheonsite.io/wp-content/uploads/2024/01/banner1.webp' alt="Promo Muscle First" class="w-full h-full">
-        </SwiperSlide>
-        <SwiperSlide>
-            <img src='https://dev-store-ucup.pantheonsite.io/wp-content/uploads/2024/01/banner3.webp' alt="Promo Muscle First" class="w-full h-full">
+          <a href="/campaign/new-flavor/pro-creatine" target="_blank">
+            <img src={BannerUnflav} alt="Promo Muscle First" class="w-full h-full">
+          </a>
         </SwiperSlide>
        </Swiper>
     </div>

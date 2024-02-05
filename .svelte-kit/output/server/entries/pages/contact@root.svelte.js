@@ -1,10 +1,10 @@
-import { c as create_ssr_component, e as escape, v as validate_component } from "../../_app/immutable/chunks/index-b361c760.js";
-import { S as SEO } from "../../_app/immutable/chunks/SEO-a75d61d4.js";
+import { c as create_ssr_component, e as escape, v as validate_component } from "../../_app/immutable/chunks/index-1e319aa9.js";
+import { S as SEO } from "../../_app/immutable/chunks/SEO-e606abe2.js";
 import "../../_app/immutable/chunks/index-778a8503.js";
-import "../../_app/immutable/chunks/common-65c7f3c2.js";
-import { B as Breadcrumbs } from "../../_app/immutable/chunks/Breadcrumbs-b286f9d3.js";
+import "../../_app/immutable/chunks/common-3de0477a.js";
+import { B as Breadcrumbs } from "../../_app/immutable/chunks/Breadcrumbs-c48ae040.js";
 import { w as websiteSchema, o as organizationSchema } from "../../_app/immutable/chunks/BannerPromo.svelte_svelte_type_style_lang-7d8a4bd9.js";
-import "../../_app/immutable/chunks/stores-290123b5.js";
+import "../../_app/immutable/chunks/stores-75875272.js";
 import "../../_app/immutable/chunks/site-data-ef8bff3e.js";
 const Main = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   return `<div class="${"w-full h-auto bg-[#151515] relative py-8 md:py-0"}"><div class="${"grid grid-cols-2 w-full h-auto justify-center px-8 md:px-0"}"><div class="${"col-span-full md:col-span-1 flex flex-col md:justify-between md:text-left mb-16 md:mb-0 text-center"}"><div class="${"flex justify-between items-center w-full h-auto px-4 md:px-16 pt-8"}"><div class="${"flex flex-col space-y-4 w-full mb-0"}"><h1 class="${"font-blackttnorms tracking-tighter w-full whitespace-pre-line text-5xl font-black text-center md:text-left text-white"}">${escape("Hubungi Kami")}</h1>

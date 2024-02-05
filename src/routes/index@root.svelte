@@ -21,8 +21,8 @@
     import { Service, Product, Contact, Promo, Consultation, CtaAgent, Calculator, CertifiedLabel } from '$section/home/index';
     import { websiteSchema, organizationSchema } from '$utils/json-ld';
     import ogImageSite from '$images/site/og-img-site.webp';
-    // import SliderHome from '$components/section/home/Banner/SliderHome.svelte'
-    import BannerHome from '$components/section/home/Banner/BannerHome.svelte'
+    import SliderHome from '$components/section/home/Banner/SliderHome.svelte'
+    // import BannerHome from '$components/section/home/Banner/BannerHome.svelte'
 
     export let promoActive: boolean = false;
     export let cdnActive: boolean = true;
@@ -39,8 +39,8 @@
 />
 
 <!-- <Jumbotron id="main" /> -->
-<BannerHome/>
-<!-- <SliderHome/> -->
+<!-- <BannerHome/> -->
+<SliderHome/>
 <Service id="service" />
 <Promo {promoActive} {cdnActive} {promoType} id="promo" />
 <Consultation id="consultation" />

@@ -1,4 +1,4 @@
-import { c as create_ssr_component, a as add_attribute } from "../../../../_app/immutable/chunks/index-b361c760.js";
+import { c as create_ssr_component, a as add_attribute } from "../../../../_app/immutable/chunks/index-1e319aa9.js";
 import { P as ProductOne } from "../../../../_app/immutable/chunks/pro-1-ea0692e5.js";
 const Index_campaign = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   return `<div class="${"grid grid-cols-12 gap-0 justify-center items-start w-full h-screen bg-zinc-900 relative"}"><div class="${"col-span-full md:col-span-6 w-full h-auto"}"><div class="${"w-full flex flex-col py-12 md:py-24 px-8 md:px-16"}"><div class="${"w-full container mx-auto md:text-left text-center px-8 py-4 flex flex-col justify-start md:justify-center items-center"}"><div class="${"w-full flex flex-col md:flex-row items-start justify-center"}"><div class="${"flex flex-col w-full mb-4"}"><span class="${"font-medium text-sm text-white uppercase tracking-widest"}">Campaign</span>
