@@ -35,9 +35,9 @@
         <div class="col-span-full md:col-span-8 w-full h-auto flex justify-center md:justify-end items-center">
             <div class="grid grid-cols-4 gap-4 w-auto justify-center items-center md:items-end h-auto px-8 md:px-0">
                 {#each cocokCardOtherList as list (list.id)}
-                    <div id="{list.title}_{list.id}" class="col-span-full md:col-span-1 justify-center items-center w-full md:w-full h-auto md:h-96 shadow relative">
-                        <div class="flex justify-center items-center text-center w-full md:w-full h-auto md:h-96 px-8 py-4 rounded bg-white border border-yellow-200">
-                            <h2 class="leading-none font-medium text-zinc-900 text-sm mt-0 uppercase">
+                    <div id="{list.title}_{list.id}" class="col-span-full md:col-span-1 justify-center items-center w-full md:w-full h-auto md:h-80 shadow relative">
+                        <div class="flex justify-center items-center text-center w-full md:w-full h-auto md:h-80 px-8 py-4 rounded bg-white border border-yellow-200">
+                            <h2 class="leading-none font-semibold text-xl text-zinc-900 text-sm mt-0 uppercase">
                                 {@html list.txtDesc}
                             </h2>
                         </div>
