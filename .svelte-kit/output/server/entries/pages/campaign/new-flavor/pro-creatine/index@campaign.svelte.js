@@ -4,8 +4,8 @@ import { p as productList } from "../../../../../_app/immutable/chunks/list-prod
 import "../../../../../_app/immutable/chunks/index-778a8503.js";
 import "../../../../../_app/immutable/chunks/common-3de0477a.js";
 import { w as websiteSchema, o as organizationSchema } from "../../../../../_app/immutable/chunks/BannerPromo.svelte_svelte_type_style_lang-7d8a4bd9.js";
-import { S as SectionOne, a as SectionSix, b as SectionTwo, c as SectionThree, d as SectionCertified, e as SectionAllProducts, f as SectionFour } from "../../../../../_app/immutable/chunks/SectionCertified-74c660db.js";
-import { c as cocokCardList } from "../../../../../_app/immutable/chunks/index-9e56f2b5.js";
+import { S as SectionOne, a as SectionSix, b as SectionThree, c as SectionCertified, d as SectionAllProducts, e as SectionFour } from "../../../../../_app/immutable/chunks/SectionCertified-11ae56f5.js";
+import { u as unflavList } from "../../../../../_app/immutable/chunks/index-8a731e54.js";
 import { c as certifiedList } from "../../../../../_app/immutable/chunks/list-certified-e272f300.js";
 import { B as BannerUnflav } from "../../../../../_app/immutable/chunks/banner-jumbotron-ec22f4bf.js";
 import "../../../../../_app/immutable/chunks/stores-75875272.js";
@@ -65,7 +65,6 @@ const HargaUnflav = create_ssr_component(($$result, $$props, $$bindings, slots) 
                         <span class="${"block text-md md:text-md font-black text-amber-900 uppercase"}">Cek Agent Terdekat dikotamu</span></div></div></div></div></div></section>`;
 });
 let productName = "Pro Creatine Unflavored";
-let subTitlePin = false;
 let pinLogo = false;
 let beforePriceLabel = true;
 const Index_campaign = create_ssr_component(($$result, $$props, $$bindings, slots) => {
@@ -112,19 +111,6 @@ ${validate_component(SectionSix, "SectionSix").$$render(
     {}
   )}
 
-${validate_component(SectionTwo, "SectionTwo").$$render(
-    $$result,
-    {
-      subTitlePin,
-      subtitle: productName,
-      title: "COCOK BUAT KAMU YANG",
-      cocokCardList,
-      gridCount: cocokCardList.length
-    },
-    {},
-    {}
-  )}
-
 ${validate_component(SectionThree, "SectionThree").$$render(
     $$result,
     {
@@ -134,7 +120,7 @@ ${validate_component(SectionThree, "SectionThree").$$render(
       subtitle: productName,
       titlePart: "",
       image: ProductTwo,
-      cocokCardOtherList: cocokCardList
+      cocokCardOtherList: unflavList
     },
     {},
     {}

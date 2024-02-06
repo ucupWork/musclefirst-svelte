@@ -1,4 +1,4 @@
-import { c as create_ssr_component, e as escape, d as each, a as add_attribute, v as validate_component } from "./index-1e319aa9.js";
+import { c as create_ssr_component, e as escape, a as add_attribute, d as each, v as validate_component } from "./index-1e319aa9.js";
 import { I as Index } from "./Index-1d60b221.js";
 const SectionOne = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   let { banner } = $$props;
@@ -30,35 +30,6 @@ const SectionOne = create_ssr_component(($$result, $$props, $$bindings, slots) =
                         <span class="${"w-auto"}"></span></div></div></button></div></div>
 </section>`;
 });
-const SectionTwo = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-  let { cocokCardList } = $$props;
-  let { gridCount } = $$props;
-  let { title } = $$props;
-  let { subtitle } = $$props;
-  let { subTitlePin } = $$props;
-  if ($$props.cocokCardList === void 0 && $$bindings.cocokCardList && cocokCardList !== void 0)
-    $$bindings.cocokCardList(cocokCardList);
-  if ($$props.gridCount === void 0 && $$bindings.gridCount && gridCount !== void 0)
-    $$bindings.gridCount(gridCount);
-  if ($$props.title === void 0 && $$bindings.title && title !== void 0)
-    $$bindings.title(title);
-  if ($$props.subtitle === void 0 && $$bindings.subtitle && subtitle !== void 0)
-    $$bindings.subtitle(subtitle);
-  if ($$props.subTitlePin === void 0 && $$bindings.subTitlePin && subTitlePin !== void 0)
-    $$bindings.subTitlePin(subTitlePin);
-  return `<div class="${"flex justify-start items-center w-full h-auto md:h-auto py-16 md:py-16 bg-zinc-400/50 relative overflow-hidden"}"><div class="${"w-full h-auto flex flex-col justify-start items-center z-0"}"><div class="${"flex flex-col w-full h-auto pb-4 md:pb-8 text-left px-8 md:px-24"}">${subTitlePin ? `<span class="${"text-amber-600 font-bold text-2xl md:text-3xl"}">${escape(subtitle)}</span>` : ``}
-            <h2 class="${"text-4xl md:text-5xl font-black text-zinc-900 leading-none max-w-xs"}"><span class="${"block uppercase"}">${escape(title)}</span></h2></div>
-        <div class="${"grid grid-cols-" + escape(gridCount, true) + " gap-2 w-full h-auto px-8 md:px-24"}">${each(cocokCardList, (list) => {
-    return `<div class="${"col-span-full md:col-span-1 w-full h-full bg-transparent"}"><div class="${"flex flex-col space-y-2 justify-center items-center w-full h-auto"}"><div id="${escape(list.title, true) + "_" + escape(list.id, true)}" class="${"flex justify-center items-center w-full h-aut md:h-64 border-b bg-gradient-to-b from-[#c18f48] to-[#e7c17a] p-8 shadow"}"><div class="${"flex flex-col w-full justify-center items-center text-center"}">${list.linkImg ? `<span class="${"w-auto h-auto p-4 rounded-full shadow bg-white mb-4 md:mb-8"}"><img class="${"w-12 h-auto"}"${add_attribute("src", list.linkImg, 0)}${add_attribute("alt", list.altImg, 0)}>
-                            </span>` : ``}
-                            <h2 class="${"leading-none text-gray-900 text-center text-md font-medium uppercase"}">${escape(list.txtDesc)}</h2>
-                        </div></div>
-                    ${list.txtSubDesc ? `<div id="${escape(list.title, true) + "_" + escape(list.id, true)}" class="${"w-full h-auto border-b bg-white p-8 shadow"}"><div class="${"w-full h-full flex justify-center items-center"}"><p class="${"text-sm text-zinc-700 leading-relaxed"}"><!-- HTML_TAG_START -->${list.txtSubDesc}<!-- HTML_TAG_END -->
-                                </p></div>
-                    </div>` : ``}</div>
-            </div>`;
-  })}</div></div></div>`;
-});
 const SectionThree = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   let { cocokCardOtherList } = $$props;
   let { id } = $$props;
@@ -87,7 +58,7 @@ const SectionThree = create_ssr_component(($$result, $$props, $$bindings, slots)
         <div class="${"col-span-full md:col-span-4 w-full h-auto flex justify-center md:justify-end items-center mb-8 md:mb-0"}"><div class="${"flex flex-col justify-center items-center w-auto h-auto px-8 p-4 md:p-0 rounded bg-gradient-to-t from-[#c18f48] to-[#e7c17a] shadow-xl border-2 border-gray-200"}"><picture><source${add_attribute("srcset", image, 0)} type="${"image/webp"}">
                     <img${add_attribute("src", image, 0)} class="${"w-full md:w-auto h-auto object-contain object-center"}" alt="${"AboutImage"}"></picture></div></div>
         <div class="${"col-span-full md:col-span-8 w-full h-auto flex justify-center md:justify-end items-center"}"><div class="${"grid grid-cols-4 gap-4 w-auto justify-center items-center md:items-end h-auto px-8 md:px-0"}">${each(cocokCardOtherList, (list) => {
-    return `<div id="${escape(list.title, true) + "_" + escape(list.id, true)}" class="${"col-span-full md:col-span-1 justify-center items-center w-full md:w-full h-auto md:h-96 shadow relative"}"><div class="${"flex justify-center items-center text-center w-full md:w-full h-auto md:h-96 px-8 py-4 rounded bg-white border border-yellow-200"}"><h2 class="${"leading-none font-medium text-zinc-900 text-sm mt-0 uppercase"}"><!-- HTML_TAG_START -->${list.txtDesc}<!-- HTML_TAG_END -->
+    return `<div id="${escape(list.title, true) + "_" + escape(list.id, true)}" class="${"col-span-full md:col-span-1 justify-center items-center w-full md:w-full h-auto md:h-80 shadow relative"}"><div class="${"flex justify-center items-center text-center w-full md:w-full h-auto md:h-80 px-8 py-4 rounded bg-white border border-yellow-200"}"><h2 class="${"leading-none font-semibold text-xl text-zinc-900 text-sm mt-0 uppercase"}"><!-- HTML_TAG_START -->${list.txtDesc}<!-- HTML_TAG_END -->
                             </h2></div>
                     </div>`;
   })}</div></div></div></div>`;
@@ -173,9 +144,8 @@ const SectionCertified = create_ssr_component(($$result, $$props, $$bindings, sl
 export {
   SectionOne as S,
   SectionSix as a,
-  SectionTwo as b,
-  SectionThree as c,
-  SectionCertified as d,
-  SectionAllProducts as e,
-  SectionFour as f
+  SectionThree as b,
+  SectionCertified as c,
+  SectionAllProducts as d,
+  SectionFour as e
 };
