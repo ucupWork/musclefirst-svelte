@@ -4,17 +4,15 @@
     // Section
     import { 
         SectionOne,
-        SectionTwo,
         SectionThree,
         SectionFour,
-        SectionFive,
         SectionSix,
         SectionCertified,
         SectionAllProducts
     } from '$components/layout-lp/v-six/index';
     // Content
 	import { 
-        cocokCardList
+        unflavList
     } from '$contents/landing-page/v-one/creatine/index';
     // Content
     import { certifiedList } from '$contents/product-page/list-certified';
@@ -24,8 +22,6 @@
     import ProductOne from '$images/product/pro-creatine/unflavored/produk-01-1.webp';
     import ProductTwoOne from '$images/product/pro-creatine/unflavored/produk-02-1.webp';
     import ProductTwo from '$images/product/pro-creatine/unflavored/produk-02-2.webp';
-    import ProductThreeOne from '$images/product/pro-creatine/unflavored/produk-03-1.webp';
-    import ProductThree from '$images/product/pro-creatine/unflavored/produk-03-2.webp';
     import HargaUnflav from '$components/layout-lp/v-six/HargaUnflav.svelte'
 
     let productName: string = "Pro Creatine Unflavored";
@@ -67,14 +63,6 @@
     txtDescColor="zinc-100"
 />
 
-<SectionTwo 
-    {subTitlePin}
-    subtitle="{productName}"
-    title="COCOK BUAT KAMU YANG"
-    {cocokCardList}
-    gridCount={cocokCardList.length}
-/>
-
 <SectionThree 
     id='musclefirst-education'
     {pinLogo}
@@ -82,7 +70,7 @@
     subtitle="{productName}"
     titlePart=""
     image={ProductTwo}
-    cocokCardOtherList={cocokCardList}
+    cocokCardOtherList={unflavList}
 />
 
 <SectionCertified certifiedCardList={certifiedList} />

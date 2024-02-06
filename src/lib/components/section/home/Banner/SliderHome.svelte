@@ -7,7 +7,7 @@
   import BannerUnflav from '$images/product/pro-creatine/unflavored/banner-jumbotron.webp'
 </script>
 
-<div class="px-4 md:px-16">
+<div class="px-4 md:px-16 bg-black">
   <Swiper
     slidesPerView="auto"
     freeMode={true}

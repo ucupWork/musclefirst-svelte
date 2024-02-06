@@ -6,11 +6,11 @@
 
     let buttonTitle = 'Langsung Cek Promonya!';
 
-    function scrollTo(element: string, duration = 1500, offset = 60) {
+    function scrollTo(element: string, duration = 1500, offset = 1000) {
         animatedScroll({ element, duration, offset });
     }
     
-    function scrollMobile(element: string, duration = 1500, offset = 50) {
+    function scrollMobile(element: string, duration = 1500, offset = 700) {
         animatedScroll({ element, duration, offset });
     }
 </script>

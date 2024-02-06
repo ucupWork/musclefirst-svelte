@@ -4274,7 +4274,7 @@ const Swiper_slide = create_ssr_component(($$result, $$props, $$bindings, slots)
 const swiper_min = "";
 const BannerPaket = "/_app/immutable/assets/februari-2024-81386833.webp";
 const SliderHome = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-  return `<div class="${"px-4 md:px-16"}">${validate_component(Swiper_1, "Swiper").$$render(
+  return `<div class="${"px-4 md:px-16 bg-black"}">${validate_component(Swiper_1, "Swiper").$$render(
     $$result,
     {
       slidesPerView: "auto",

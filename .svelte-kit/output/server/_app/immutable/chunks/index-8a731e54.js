@@ -38,6 +38,36 @@ const cocokCardList = [
     txtDesc: "Mengurangi resiko cedera pada otot"
   }
 ];
+const unflavList = [
+  {
+    id: "1",
+    title: "Daya Tahan Otot",
+    linkImg: Icon1,
+    altImg: "Daya Tahan Otot",
+    txtDesc: "Vegan Friendly"
+  },
+  {
+    id: "2",
+    title: "Keram Olahraga",
+    linkImg: Icon2,
+    altImg: "Keram Olahraga",
+    txtDesc: "Gluten Free"
+  },
+  {
+    id: "3",
+    title: "Mengurangi Resiko Cedera",
+    linkImg: Icon4,
+    altImg: "Mengurangi Resiko Cedera",
+    txtDesc: "Sudah Halal dan BPOM"
+  },
+  {
+    id: "4",
+    title: "Mengurangi Resiko Cedera",
+    linkImg: Icon4,
+    altImg: "Mengurangi Resiko Cedera",
+    txtDesc: "No Added Sugar dan non GMO"
+  }
+];
 const rasaList = [
   {
     id: "1",
@@ -146,5 +176,6 @@ export {
   educationCardList as e,
   manfaatList as m,
   rasaList as r,
-  testimonialCardList as t
+  testimonialCardList as t,
+  unflavList as u
 };
